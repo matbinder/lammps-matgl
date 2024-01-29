@@ -20,8 +20,8 @@ pair_style    m3gnet ./potentials/M3GNET
 
 read_data     ./dat.lammps
 
-pair_coeff    * *  MP-2021.2.8-EFS  Zr O  # M3GNet <https://github.com/materialsvirtuallab/m3gnet> will be called
-#pair_coeff    * *  M3GNet-MP-2021.2.8-PES  Zr O  # MatGL <https://github.com/materialsvirtuallab/matgl> will be called
+#pair_coeff    * *  MP-2021.2.8-EFS  Zr O  # M3GNet <https://github.com/materialsvirtuallab/m3gnet> will be called
+pair_coeff    * *  M3GNet-MP-2021.2.8-PES  Zr O  # MatGL <https://github.com/materialsvirtuallab/matgl> will be called
 #pair_coeff    * *  M3GNet-MP-2021.2.8-DIRECT-PES  Zr O  # MatGL <https://github.com/materialsvirtuallab/matgl> will be called
 
 dump          myDump all custom 10 xyz.lammpstrj id element x y z
