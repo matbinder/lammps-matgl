@@ -2,5 +2,5 @@ channels:
 - conda-forge
 dependencies:
 - python
-- lammps =2023.11.21=*_2
+- lammps =2023.11.21=*_nompi_3
 - matgl
